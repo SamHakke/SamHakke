@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 140" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1726" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#4facfe" />
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fb923c" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .metric-val {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-weight: 800;
+      font-size: 32px;
+    }
+    .metric-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-weight: 700;
+      font-size: 13px;
+      fill: #f1f5f9;
+    }
+    .metric-desc {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 11px;
+      fill: #94a3b8;
+    }
+    .glow-border {
+      transition: stroke 0.3s;
+    }
+  </style>
+
+  <!-- Card 1: 5+ Years -->
+  <g transform="translate(10, 10)">
+    <rect width="215" height="118" rx="12" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.6"/>
+    <text x="20" y="44" class="metric-val" fill="url(#cyanGrad)">5+ Yrs</text>
+    <text x="20" y="74" class="metric-title">Enterprise Track Record</text>
+    <text x="20" y="94" class="metric-desc">Arm &amp; Capgemini Data &amp; AI</text>
+  </g>
+
+  <!-- Card 2: 40% Reduction -->
+  <g transform="translate(245, 10)">
+    <rect width="215" height="118" rx="12" fill="url(#cardGrad)" stroke="#34d399" stroke-width="1.5" stroke-opacity="0.6"/>
+    <text x="20" y="44" class="metric-val" fill="url(#greenGrad)">40%</text>
+    <text x="20" y="74" class="metric-title">ETL Load Acceleration</text>
+    <text x="20" y="94" class="metric-desc">Warehouse &amp; Batch Tuning</text>
+  </g>
+
+  <!-- Card 3: 30% Defect Elimination -->
+  <g transform="translate(480, 10)">
+    <rect width="215" height="118" rx="12" fill="url(#cardGrad)" stroke="#c084fc" stroke-width="1.5" stroke-opacity="0.6"/>
+    <text x="20" y="44" class="metric-val" fill="url(#purpleGrad)">30%</text>
+    <text x="20" y="74" class="metric-title">Defect Elimination</text>
+    <text x="20" y="94" class="metric-desc">Multi-Layer Staging &amp; QA</text>
+  </g>
+
+  <!-- Card 4: Zero Overruns -->
+  <g transform="translate(715, 10)">
+    <rect width="215" height="118" rx="12" fill="url(#cardGrad)" stroke="#fb923c" stroke-width="1.5" stroke-opacity="0.6"/>
+    <text x="20" y="44" class="metric-val" fill="url(#orangeGrad)">Zero</text>
+    <text x="20" y="74" class="metric-title">Budget Overruns</text>
+    <text x="20" y="94" class="metric-desc">FinOps &amp; Cloudability Guardrails</text>
+  </g>
+</svg>
